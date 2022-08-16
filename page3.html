@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="tc_styles.css">
+</head>
+<body>
+
+<div class="cl_top_nav" id="id_top_nav">
+  <a href="javascript:void(0);" class="cl_top_elem" id="id_side_menu" onclick="toggle_side_menu('id_side_nav')">
+    <i class="fa fa-caret-down"></i>
+  </a>
+  <a href="index.html#home" class="cl_top_elem" onclick="close_menu('id_top_nav')" id="id_home"><i class="fa fa-home"></i></a>
+  <a href="index.html#news" class="cl_top_elem" onclick="close_menu('id_top_nav')">News</a>
+  <a href="index.html#contact" class="cl_top_elem" onclick="close_menu('id_top_nav')">Contact</a>
+  <a href="index.html#about" class="cl_top_elem" onclick="close_menu('id_top_nav')">About</a>
+  <a href="javascript:void(0);" class="cl_top_elem" id="id_top_menu" onclick="toggle_menu('id_top_nav')">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div id="id_content">
+  <!-- div id="id_side_nav" class="lside col-m3"
+  onclick="close_menu('id_side_nav')"  width="100%" height="300"
+    <iframe src="./side_nav.html" style="border:none;"></iframe>
+  -->
+  <div id="id_side_nav" class="col-2 col-m2">
+    <h3 id="id_side_nav_name">Menu #2</h3>
+    <ul>
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#news">News</a></li>
+      <li><div class="cl_sub_nav">A <i class="fa fa-caret-down"></i></div>
+        <ul class="nested">
+          <h4>Pagina 1</h4>
+          <li><a href="index.html#ref_1_3_3_3">1.3.3.3</a></li>
+          <h4>Pagina 3</h4>
+          <li><a href="#ref_A_A">A_A</a></li>
+          <li><a href="#ref_A_B">A_B</a></li>
+          <li><div class="cl_sub_nav">A_C <i class="fa fa-caret-down"></i></div>
+            <ul class="nested">
+              <li><div class="cl_sub_nav">A_C_A <i class="fa fa-caret-down"></i></div>
+                <ul class="nested">
+                  <li><a href="#ref_A_C_A_A">A_C_A_A</a></li>
+                  <li><a href="#ref_A_C_A_B">A_C_A_B</a></li>
+                  <li><a href="#ref_A_C_A_C">A_C_A_C</a></li>
+                  <li><a href="#ref_A_C_A_D">A_C_A_D</a></li>
+                </ul>
+              </li>
+              <li><a href="#ref_A_C_B">A_C_B</a></li>
+              <li><div class="cl_sub_nav">A_C_C <i class="fa fa-caret-down"></i></div>
+                <ul class="nested">
+                  <li><a href="#ref_A_C_C_A">A_C_C_A</a></li>
+                  <li><a href="#ref_A_C_C_B">A_C_C_B</a></li>
+                  <li><a href="#ref_A_C_C_C">A_C_C_C</a></li>
+                  <li><a href="#ref_A_C_C_D">A_C_C_D</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="cl_main_content col-7 col-m10">
+
+    <div id="ref_A"></div>
+    <br><br>
+    <h3>ref_A</h3>
+
+    <div id="ref_A_A"></div>
+    <br><br>
+    <h3>ref_A_A</h3>
+
+    <div id="ref_A_B"></div>
+    <br><br>
+    <h3>ref_A_B</h3>
+
+    <div id="ref_A_C"></div>
+    <br><br>
+    <h3>ref_A_C</h3>
+
+    <div id="ref_A_C_A"></div>
+    <br><br>
+    <h3>ref_A_C_A</h3>
+
+    <div id="ref_A_C_A_A"></div>
+    <br><br>
+    <h3>ref_A_C_A_A</h3>
+
+    <div id="ref_A_C_A_B"></div>
+    <br><br>
+    <h3>ref_A_C_A_B</h3>
+
+    <div id="ref_A_C_A_C"></div>
+    <br><br>
+    <h3>ref_A_C_A_C</h3>
+
+    <div id="ref_A_C_A_D"></div>
+    <br><br>
+    <h3>ref_A_C_A_D</h3>
+
+    <div id="ref_A_C_B"></div>
+    <br><br>
+    <h3>ref_A_C_B</h3>
+
+    <div id="ref_A_C_C"></div>
+    <br><br>
+    <h3>ref_A_C_C</h3>
+
+    <div id="ref_A_C_C_A"></div>
+    <br><br>
+    <h3>ref_A_C_C_A</h3>
+
+    <div id="ref_A_C_C_B"></div>
+    <br><br>
+    <h3>ref_A_C_C_B</h3>
+
+    <div id="ref_A_C_C_C"></div>
+    <br><br>
+    <h3>ref_A_C_C_C</h3>
+
+    <div id="ref_A_C_C_D"></div>
+    <br><br>
+    <h3>ref_A_C_C_D</h3>
+
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <br>
+    <p id="DEBUG">
+  </div>
+  <div class="rside col-3 col-m12">
+    <h2>What?</h2>
+    <p>Chania is a city on the island of Crete.</p>
+    <h2>Where?</h2>
+    <p>Crete is a Greek island in the Mediterranean Sea.</p>
+    <h2>How?</h2>
+    <p>You can reach Chania airport from all over Europe.</p>
+  </div>
+
+</div>
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+
+ <script src="tc_script.js"></script>
+
+</body>
+</html>
+
